@@ -1,0 +1,26 @@
+.SidebarCont{
+    width: 12.5%;
+    height: 100vh;
+    background-color: var(--PrimaryColor);
+}
+
+.SectionCont{
+    
+    padding: 1em 0 1em 1em;
+    
+}
+
+.SidebarHeader{
+    font-size: .9rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.SidebarItem{
+    font-size: .8rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--SecondaryTextColor);
+    padding-left: 2em;
+}

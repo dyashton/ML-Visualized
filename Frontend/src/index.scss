@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+  font-family: Montserrat;
+  font-weight: 400;
+
+  color: var(--PrimaryTextColor);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --BackgroundColor: #212529;
+  --PrimaryColor: #343A40;
+  --SecondaryColor: #495057;
+  --TertiaryColor: #168AAD;
+  --TertiaryColorDark: #1A759F;
+  --PrimaryTextColor: #F8F9FA;
+  --SecondaryTextColor: #CED4DA;
+  --AccentColor: #1A759F;
+
+}
+
+.textGradient1{
+  background: linear-gradient(to right, var(--PrimaryTextColor) 10%, var(--TertiaryColor) 40%, var(--PrimaryTextColor) 80%, var(--TertiaryColor) 120%); 
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent; 
+}
+
+.textGradient2{
+  background: linear-gradient(to bottom, var(--PrimaryTextColor), var(--SecondaryColor) 150%); 
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent; 
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}

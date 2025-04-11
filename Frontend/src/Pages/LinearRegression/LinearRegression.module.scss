@@ -1,0 +1,47 @@
+.LinearRegressionCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 87.5%;
+    height: 100vh;
+    position: relative;
+}
+
+.LinearRegressionTitle{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    font-size: 2.5rem;
+    font-weight: 550;
+    margin: 0;
+    padding: 0;
+}
+
+.LinearRegressionSubtitleCont{
+    position: absolute;
+    top: .25em;
+    left: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .25em;
+    margin: 0;
+    padding: 0;
+}
+
+.LinearRegressionSubtitle{
+    font-size: .8em;
+}
+
+.Chevron{
+    width: .7em;
+    color: var(--SecondaryTextColor);
+}
+
+.LinearRegressionSub2{
+    font-size: .7em;
+    font-weight: 500;
+    color: var(--SecondaryTextColor)
+}
